@@ -267,8 +267,7 @@ EOF
 <tr>
 <td>Tree-sitter query language</td><td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
 <tr>
-<td>r</td><td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
-<tr>
+<td>r</td><td></td> <td></td> <td>👍</td> <td>👍</td> <td></td> <td></td> <td></td> <td>👍</td> <td>👍</td> <td></td> <td></td> <td>👍</td> <td>👍</td> <td>👍</td> <td>👍</td> <td></td> <td></td> <td></td> <td></td> </tr> <tr>
 <td>regex</td><td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
 <tr>
 <td>rst</td><td>👍</td> <td>👍</td> <td> </td> <td> </td> <td>👍</td> <td>👍</td> <td>👍</td> <td> </td> <td> </td> <td> </td> <td> </td> <td>👍</td> <td>👍</td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
