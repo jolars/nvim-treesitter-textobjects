@@ -11,13 +11,19 @@ jobs:
     name: Check Query Files
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Install tree-sitter CLI
+        run: npm i -g tree-sitter
 
       - name: Prepare
+        env:
+          NVIM_TAG: v0.5.1
         run: |
           sudo apt-get update
           sudo add-apt-repository universe
-          wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+          wget https://github.com/neovim/neovim/releases/download/${NVIM_TAG}/nvim.appimage
           chmod u+x nvim.appimage
           mkdir -p ~/.local/share/nvim/site/pack/nvim-treesitter-textobject/start
           ln -s $(pwd) ~/.local/share/nvim/site/pack/nvim-treesitter-textobject/start
